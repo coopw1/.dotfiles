@@ -22,3 +22,5 @@ mkcd() {
 }
 
 alias cpsc="ssh lwade@cpsc.umw.edu"
+
+. "$HOME/.atuin/bin/env"
