@@ -10,7 +10,7 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 source /usr/share/nvm/init-nvm.sh
 
-export PATH=$PATH:/home/coopw/.spicetify 
+export PATH=$PATH:/home/coopw/.spicetify:/home/coopw/Documents/scripts/CoomerDL/start:/home/coopw/.local/bin
 
 export EDITOR="vim"
 export MANPAGER='vim -M +MANPAGER -'
@@ -29,8 +29,3 @@ mkcd() {
 }
 
 alias cpsc="ssh lwade@cpsc.umw.edu"
-
-. "$HOME/.atuin/bin/env"
-
-[[ -f ~/.bash-preexec.sh ]] && source ~/.bash-preexec.sh
-eval "$(atuin init bash)"

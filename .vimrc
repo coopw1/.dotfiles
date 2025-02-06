@@ -11,6 +11,7 @@ set mouse=a
 set ignorecase
 set number
 syntax on
+set fileformat=unix
 
 " theme settings
 set termguicolors
@@ -18,9 +19,9 @@ colorscheme catppuccin_mocha
 set cursorline
 
 " tab settings
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " Highlight search results as you type
