@@ -48,6 +48,9 @@
   },
   "hyprland/window": {
     "format": "{title}",
+    "rewrite": {
+      "(\\(\\d+\\)|•) Discord (.*)": "Discord",
+    },
   },
   "tray": {
     "show-passive-items": true,
